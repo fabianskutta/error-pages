@@ -1,0 +1,89 @@
+body,
+html {
+    align-items: center;
+    background-color: $black;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: $red;
+    line-height: 1em;
+    font-size: 3.25em;
+    line-height: 1.35em;
+}
+
+h3 {
+    color: $white;
+    line-height: 1em;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+button {
+    outline: none;
+    height: 50px;
+    text-align: center;
+    width: 150px;
+    border-radius: 40px;
+    border: 2px solid #FD4D4D;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: #0B0E11;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .big_icon{
+    margin-right: 20px;
+  }
+
+  @media only screen and (min-width: 900px) {
+    button:hover {
+        background: #FD4D4D;
+        box-shadow: 1px 2px 22px 0px #FD4D4D;
+        letter-spacing: 1px;
+      }
+
+    button:active {
+        letter-spacing: 2px;
+        box-shadow: 3px 2px 22px 0px #FD4D4D;
+      }
+    }
+
+@media only screen and (max-width: 900px) {
+    button {
+        background: #FD4D4D;
+        box-shadow: 1px 2px 22px 0px #FD4D4D;
+        letter-spacing: 1px;
+      }
+      h1 {
+        font-size: 2.25em;
+        line-height: 1.35em;
+    }
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        font-weight: 400;
+    }
+    .container {
+        width: 90%;
+    }
+    .big_icon{
+        margin-right: 8px;
+      }
+    }
