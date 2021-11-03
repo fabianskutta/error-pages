@@ -12,7 +12,8 @@
     "build:prod": "gulp build --production"
   },
   "author": "Fabian Skutta",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "github:fabianskutta/error-pages",
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "babel-runtime": "^6.26.0",
