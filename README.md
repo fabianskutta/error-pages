@@ -17,7 +17,7 @@
 * [501 Not Implemented](https://error-pages.fabian.lol/not_implemented)
 * [412 Precondition Failed](https://error-pages.fabian.lol/precondition_failed)
 * [407 Proxy Authentication Required](https://error-pages.fabian.lol/proxy_authentication_required)
-* [414 URI Too Long](https://error-pages.fabian.lol/request-uri_too_longl)
+* [414 URI Too Long](https://error-pages.fabian.lol/request-uri_too_long)
 * [401 Unauthorized](https://error-pages.fabian.lol/unauthorized)
 * [415 Unsupported Media Type](https://error-pages.fabian.lol/unsupported_media_type)
 
@@ -26,7 +26,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Installation
 
