@@ -1,7 +1,7 @@
 body,
 html {
     align-items: center;
-    background-color: $black;
+    background-color: var(--bg);
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
@@ -19,14 +19,14 @@ html {
 }
 
 h1 {
-    color: $red;
+    color: var(--main);
     line-height: 1em;
     font-size: 3.25em;
     line-height: 1.35em;
 }
 
 h3 {
-    color: $white;
+    color: var(--second);
     line-height: 1em;
     font-size: 1.8em;
     line-height: 1.5em;
@@ -39,11 +39,11 @@ button {
     text-align: center;
     width: 150px;
     border-radius: 40px;
-    border: 2px solid #FD4D4D;
-    color: #fff;
+    border: 2px solid var(--main);
+    color: var(--second);
     cursor: pointer;
     transition: all 0.25s ease;
-    background-color: #0B0E11;
+    background-color: var(--bg);
     margin-top: 10px;
     font-size: 20px;
   }
@@ -54,21 +54,22 @@ button {
 
   @media only screen and (min-width: 900px) {
     button:hover {
-        background: #FD4D4D;
-        box-shadow: 1px 2px 22px 0px #FD4D4D;
+        background: var(--main);
+        box-shadow: 1px 2px 22px 0px var(--main);
         letter-spacing: 1px;
+        color: #F4F6FB;
       }
 
     button:active {
         letter-spacing: 2px;
-        box-shadow: 3px 2px 22px 0px #FD4D4D;
+        box-shadow: 3px 2px 22px 0px var(--main);
       }
     }
 
 @media only screen and (max-width: 900px) {
     button {
-        background: #FD4D4D;
-        box-shadow: 1px 2px 22px 0px #FD4D4D;
+        background: var(--main);
+        box-shadow: 1px 2px 22px 0px var(--main);
         letter-spacing: 1px;
       }
       h1 {

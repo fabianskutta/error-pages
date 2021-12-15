@@ -1,4 +1,12 @@
-$red: #FD4D4D;
-$black: #0B0E11;
-$white: #fff;
-$popup-bg: #00000050;
+:root {
+    --bg: #0B0E11;
+    --main: #FD4D4D;
+    --second: #F4F6FB;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #F4F6FB;
+        --second: #0B0E11;
+    }
+  }
