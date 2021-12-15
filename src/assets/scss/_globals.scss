@@ -40,7 +40,7 @@ button {
     width: 150px;
     border-radius: 40px;
     border: 2px solid var(--main);
-    color: #F4F6FB;
+    color: var(--second);
     cursor: pointer;
     transition: all 0.25s ease;
     background-color: var(--bg);
@@ -57,6 +57,7 @@ button {
         background: var(--main);
         box-shadow: 1px 2px 22px 0px var(--main);
         letter-spacing: 1px;
+        color: #F4F6FB;
       }
 
     button:active {
@@ -70,6 +71,7 @@ button {
         background: var(--main);
         box-shadow: 1px 2px 22px 0px var(--main);
         letter-spacing: 1px;
+        color: #F4F6FB;
       }
       h1 {
         font-size: 2.25em;
