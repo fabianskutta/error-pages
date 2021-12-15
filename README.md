@@ -49,4 +49,4 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/fabianskut
 
 [license-shield]: https://img.shields.io/github/license/fabianskutta/error-pages.svg?style=for-the-badge
 [license-url]: https://github.com/fabianskutta/error-pages/blob/main/LICENSE
-[product-screenshot]: https://cdn.fabian.lol/github/error-pages.png
+[product-screenshot]: https://cdn.fabian.lol/github/error-pages2.png
