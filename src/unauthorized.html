@@ -21,13 +21,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
-
     <div class="container">
-        <h1><i class="big_icon far fa-dizzy"></i>Unauthorized</h1>
-       <h3>The requested resource on&nbsp;<script>document.write(window.location.hostname)</script>&nbsp;requires an authentication.</h3>
-       <button onclick="window.history.back();"><i class="fas fa-hand-point-left"></i> go back</button>
+        <h1><span class="text">401 </span><span class="normal">Unauthorized</span></h1>
+       <p>The requested resource on&nbsp;<script>document.write(window.location.hostname)</script>&nbsp;requires an authentication.</p>
+       <a onclick="window.history.back();" class="btn-big btn-primary"><i class="fas fa-hand-point-left"></i> go back</a>
     </div>
-
     <!-- import JS -->
     <script src="https://error-pages.fabian.lol/assets/js/app.min.js"></script>
 </body>

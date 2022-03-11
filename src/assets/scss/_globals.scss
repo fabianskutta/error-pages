@@ -1,7 +1,7 @@
 body,
 html {
     align-items: center;
-    background-color: var(--bg);
+    background-color: var(--background1);
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
@@ -18,66 +18,20 @@ html {
     transform: translate(-50%, -50%);
 }
 
-h1 {
-    color: var(--main);
+p {
+    color: var(--text2);
     line-height: 1em;
-    font-size: 3.25em;
-    line-height: 1.35em;
-}
-
-h3 {
-    color: var(--second);
-    line-height: 1em;
-    font-size: 1.8em;
+    font-size: 1.5em;
     line-height: 1.5em;
-    font-weight: 400;
+    font-weight: 300;
 }
-
-button {
-    outline: none;
-    height: 50px;
-    text-align: center;
-    width: 150px;
-    border-radius: 40px;
-    border: 2px solid var(--main);
-    color: var(--second);
-    cursor: pointer;
-    transition: all 0.25s ease;
-    background-color: var(--bg);
-    margin-top: 10px;
-    font-size: 20px;
-  }
 
   .big_icon{
     margin-right: 20px;
   }
 
-  @media only screen and (min-width: 900px) {
-    button:hover {
-        background: var(--main);
-        box-shadow: 1px 2px 22px 0px var(--main);
-        letter-spacing: 1px;
-        color: #F4F6FB;
-      }
-
-    button:active {
-        letter-spacing: 2px;
-        box-shadow: 3px 2px 22px 0px var(--main);
-      }
-    }
-
 @media only screen and (max-width: 900px) {
-    button {
-        background: var(--main);
-        box-shadow: 1px 2px 22px 0px var(--main);
-        letter-spacing: 1px;
-        color: #F4F6FB;
-      }
-      h1 {
-        font-size: 2.25em;
-        line-height: 1.35em;
-    }
-    h3 {
+    p {
         font-size: 1.5em;
         line-height: 1.5em;
         font-weight: 400;
@@ -89,3 +43,89 @@ button {
         margin-right: 8px;
       }
     }
+  
+.btn-primary {
+    background: var(--btn-primary-bg);
+    box-shadow: 0px 3px 13px 3px var(--btn-primary-shadow);
+}
+
+.btn-secondary {
+    background: var(--btn-secondary-bg);
+    box-shadow: 0px 3px 13px 3px var(--btn-secondary-shadow);
+}
+
+.btn-big {
+  text-align: center;
+  color: #F4F6FB;
+  width: fit-content;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-top: 1.25rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.text {
+  background: -webkit-linear-gradient(right,var(--accent1),var(--accent2));
+  background: linear-gradient(270deg,var(--accent1) 0,var(--accent2));
+  background-size: 350%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: gradientText 3s ease infinite;
+  animation: gradientText 3s ease infinite;
+  font-size: 5rem;
+}
+
+.normal {
+  color: transparent;
+  -webkit-text-stroke: 0.8px var(--text1);
+  font-size: 5rem;
+}
+
+@keyframes gradientText {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@media screen and (min-width: 900px) {
+  .btn-big:hover {
+      transform: scale(.96);
+  }
+  
+  .btn-big:active {
+      transform: scale(.9);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+    font-size: 3rem;
+  }
+  
+  .normal {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}

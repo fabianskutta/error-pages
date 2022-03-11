@@ -1,12 +1,21 @@
 :root {
-    --bg: #0B0E11;
-    --main: #FD4D4D;
-    --second: #F4F6FB;
+    --accent1: #f9063b;
+    --accent2: #f9a90d;
+    --background1: #111217;
+    --text1: #F4F6FB;
+    --text2: #d1d1d1;
+    --btn-primary-bg: #f9063b;
+    --btn-primary-shadow: #f9063b4d;
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg: #F4F6FB;
-        --second: #0B0E11;
+    --accent1: #F652A0;
+    --accent2: #36EEE0;
+    --background1: #F4F6FB;
+    --text1: #111217;
+    --text2: #1b1d24;
+    --btn-primary-bg: #F652A0;
+    --btn-primary-shadow: #F652A04d;
     }
   }
